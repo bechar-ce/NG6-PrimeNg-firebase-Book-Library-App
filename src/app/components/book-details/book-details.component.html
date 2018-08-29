@@ -1,0 +1,36 @@
+<p-toast [style]="{marginTop: '80px'}">
+</p-toast>
+<p-carousel headerText="Book Detail from Firebase Realtime Database" [value]="iBooksdatas" [responsive]="true" numVisible="1" autoplayInterval="3000">
+  <ng-template let-book pTemplate="iBooksdatas">
+    <div class="ui-grid ui-grid-responsive">
+      <div class="ui-grid-row" style="margin: 10px;">
+        <p-card>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="col-sm-6">
+                <span class="align-middle"> <img src={{book.imageLink}} class="book-cover-image img-responsive" style=" margin: 0 auto;"></span>
+              </div>
+              <div class="col-sm-6">
+                <h1></h1>
+              </div>
+            </div>
+          </div>
+        </p-card>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="col-sm-12">
+              <h1>{{book.title}}</h1>
+              <p>Author: {{book.author}}</p>
+              <p>Country: {{book.country}}</p>
+              <p>Language: {{book.language}}</p>
+              <p>Author: {{book.author}}</p>
+              <p>Link: <a target="_blank" href={{book.link}}>{{book.link}}</a></p>
+              <p>Pages: {{book.pages}}</p>
+              <p>Year: {{book.year}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</p-carousel>

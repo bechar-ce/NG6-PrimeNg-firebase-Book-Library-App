@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+body {
+    padding-top: 1.5rem;
+  }
+  .starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+  }
+
+  .book-cover-image {
+    width: auto;
+    height: 300px;
+    text-align: center !important;
+}
+
+.my-center-text {
+  text-align: center;
+  width: 100%;
+}
+

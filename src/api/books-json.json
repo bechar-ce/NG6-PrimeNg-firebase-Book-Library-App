@@ -1,0 +1,57 @@
+{
+  "books" : [ {
+    "author" : "Chinua Achebe",
+    "country" : "Nigeria",
+    "imageLink" : "http://angularjstutorials.net/angular-blog-images/project/images/things-fall-apart.jpg",
+    "language" : "English",
+    "link" : "https://en.wikipedia.org/wiki/Things_Fall_Apart\n",
+    "pages" : 209,
+    "title" : "Things Fall Apart",
+    "year" : 1958
+  }, {
+    "author" : "Hans Christian Andersen",
+    "country" : "Denmark",
+    "imageLink" : "http://angularjstutorials.net/angular-blog-images/project/images/fairy-tales.jpg",
+    "language" : "Danish",
+    "link" : "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n",
+    "pages" : 784,
+    "title" : "Fairy tales",
+    "year" : 1836
+  }, {
+    "author" : "Dante Alighieri",
+    "country" : "Italy",
+    "imageLink" : "http://angularjstutorials.net/angular-blog-images/project/images/the-divine-comedy.jpg",
+    "language" : "Italian",
+    "link" : "https://en.wikipedia.org/wiki/Divine_Comedy\n",
+    "pages" : 928,
+    "title" : "The Divine Comedy",
+    "year" : 1315
+  }, {
+    "author" : "Jane Austen",
+    "country" : "United Kingdom",
+    "imageLink" : "http://angularjstutorials.net/angular-blog-images/project/images/pride-and-prejudice.jpg",
+    "language" : "English",
+    "link" : "https://en.wikipedia.org/wiki/Pride_and_Prejudice\n",
+    "pages" : 226,
+    "title" : "Pride and Prejudice",
+    "year" : 1813
+  }, {
+    "author" : "Honoré de Balzac",
+    "country" : "France",
+    "imageLink" : "http://angularjstutorials.net/angular-blog-images/project/images/le-pere-goriot.jpg",
+    "language" : "French",
+    "link" : "https://en.wikipedia.org/wiki/Le_P%C3%A8re_Goriot\n",
+    "pages" : 443,
+    "title" : "Le Père Goriot",
+    "year" : 1835
+  }, {
+    "author" : "Samuel Beckett",
+    "country" : "Republic of Ireland",
+    "imageLink" : "http://angularjstutorials.net/angular-blog-images/project/images/molloy-malone-dies-the-unnamable.jpg",
+    "language" : "French, English",
+    "link" : "https://en.wikipedia.org/wiki/Molloy_(novel)\n",
+    "pages" : 256,
+    "title" : "Molloy, Malone Dies, The Unnamable, the trilogy",
+    "year" : 1952
+  } ]
+}
