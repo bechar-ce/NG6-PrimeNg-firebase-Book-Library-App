@@ -1,10 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "~font-awesome/css/font-awesome.css";
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
 
-body {
-    padding-top: 1.5rem;
-  }
+body { padding-top: 1.5rem;margin-top: 100px; text-align:center; }
+
+h1 {
+  font: 2em 'Roboto', sans-serif;
+  margin-bottom: 40px;
+}
+
+#loading {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(200,155,266,.7);
+  border-radius: 50%;
+  border-top-color: #db214c ;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+
   .starter-template {
     padding: 3rem 1.5rem;
     text-align: center;
