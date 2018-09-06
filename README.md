@@ -1,6 +1,9 @@
 # Live Demo
 
-[Angulr-6-PrimeNg-firebase-Book-Library-Application](http://angularjstutorials.net/Angulr-6-PrimeNg-firebase-Book-Library-Application/)
+[Angulr-6-PrimeNg-firebase-Book-Library-Application](http://angularjstutorials.net/angular-6-primeng-firebase-book-library-application/)
+
+#Angular 6 Tutorials
+[http://angularjstutorials.net](http://angularjstutorials.net)
 
 # Ng6bootstrapfirebase
 
