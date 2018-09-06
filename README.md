@@ -2,7 +2,8 @@
 
 [Angulr-6-PrimeNg-firebase-Book-Library-Application](http://angularjstutorials.net/angular-6-primeng-firebase-book-library-application/)
 
-#Angular 6 Tutorials
+# You can find more Angular 6 Tutorials and setup from below links
+
 [http://angularjstutorials.net](http://angularjstutorials.net)
 
 # Ng6bootstrapfirebase
